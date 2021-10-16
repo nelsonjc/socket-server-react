@@ -1,4 +1,4 @@
-const socket = io("http://localhost:8080");
+const socket = io("https://react-socketio-server-test.herokuapp.com/");
 const formulario = document.querySelector("#miFormulario");
 const mensajes = document.querySelector("#misMensajes");
 const txtMensaje = document.querySelector("#txtMensaje");
